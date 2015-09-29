@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Brian Frisch</title>
+  <meta name="description" content="There's no off position on the genius switch">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {background-color:#222;margin:40px;font-family:Georgia;}
+    a:link {color:#bada55;text-decoration:underline;}
+    a:visited {color:#bada55;text-decoration:underline;}
+    a:hover,
+    a:visited:hover {color:#000;text-decoration:underline;}
+
+    h1 {font-size:33px;font-weight:normal;color:#fefefe;margin-bottom:10px;}
+    h2 {font-size:23px;font-weight:normal;margin-bottom:10px;line-height: 28px;}
+    p {margin-top:0;margin-bottom:2em;}
+    p,div {color:#a1a1a1;line-height:1.5em;}
+
+    .socialIcon {
+      height: 64px;
+      width: 64px;
+    }
+
+    .wrapper {
+      text-align: center;
+      padding: 10px;
+    }
+
+    .socialLinks {
+      overflow: hidden;
+      *zoom: 1;
+      display: inline-block;
+      margin: 20px 0 0 0;
+    }
+    .socialLinks a {
+      display: block;
+      background: transparent;
+      border: 1px solid white;
+      float: left;
+      height: 102.4px;
+      margin: 15px;
+      position: relative;
+      -moz-transition: background 0.1s linear, border 0.1s linear;
+      -o-transition: background 0.1s linear, border 0.1s linear;
+      -webkit-transition: background 0.1s linear, border 0.1s linear;
+      transition: background 0.1s linear, border 0.1s linear;
+      width: 102.4px;
+    }
+    .socialLinks a .socialIcon {
+      left: 50%;
+      margin: -32px 0 0 -32px;
+      position: absolute;
+      top: 50%;
+    }
+    .socialLinks .github:hover {
+      background: #000;
+      border-color: #000;
+    }
+    .socialLinks .codepen:hover {
+      background: #000;
+      border-color: #000;
+    }
+    .socialLinks .facebook:hover {
+      background: #3b5998;
+      border-color: #3b5998;
+    }
+    .socialLinks .linkedin:hover {
+      background: #1d87be;
+      border-color: #1d87be;
+    }
+    .socialLinks .twitter:hover {
+      background: #55acee;
+      border-color: #55acee;
+    }
+    .socialLinks .instagram:hover {
+      background: #125688;
+      border-color: #125688;
+    }
+  </style>
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+
+    <symbol id="icon-codepen" viewBox="0 0 63.194 63.086">
+      <title>Codepen</title> 
+      <desc>Link to Codepen</desc>
+
+      <polygon fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" points="31.54,2.5 
+      60.694,21.898 31.54,41.078 2.5,21.681   "/>
+      <polygon fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" points="31.54,21.789 
+      60.694,41.405 31.54,60.586 2.5,41.188   "/>
+      <line fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" x1="2.5" y1="21.681" x2="2.5" y2="41.188"/>
+      <line fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" x1="60.694" y1="21.681" x2="60.694" y2="41.188"/>
+      <line fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" x1="31.598" y1="3.809" x2="31.598" y2="23.315"/>
+      <line fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" x1="31.598" y1="41.188" x2="31.598" y2="60.694"/>
+    </symbol>
+
+    <symbol id="icon-facebook" viewBox="0 0 30.162 64">
+      <title>Facebook</title> 
+      <desc>Link to Facebook</desc>
+
+      <path fill="#FFFFFF" d="M30.113,0.001c0,0-6.156,0-10.239,0c-6.082,0-12.843,2.549-12.843,11.351c0.032,3.065,0,6.001,0,9.306H0
+      v11.173h7.251V64h13.321V31.616h8.794l0.796-10.991h-9.821c0,0,0.026-4.893,0-6.31c0-3.476,3.628-3.279,3.84-3.279
+      c1.73,0,5.081,0.005,5.942,0V0L30.113,0.001L30.113,0.001z"/>
+    </symbol>
+
+    <symbol id="icon-linkedin" viewBox="0 0 64 62.888">
+      <title>LinkedIn</title> 
+      <desc>Link to LinkedIn</desc>
+
+      <path fill="#FFFFFF" d="M6.902,0c-4.229,0-6.988,2.85-6.9,6.646c-0.088,3.619,2.677,6.553,6.815,6.553
+      c4.313,0,7.073-2.934,7.073-6.553C13.807,2.85,11.13,0,6.902,0z M0.345,62.888h13.114V18.074H0.345V62.888z M48.906,18.705
+      c-4.189,0-8.471-0.866-13.029,6.204h-0.256l-0.23-6.831H23.782c0.174,3.708,0.196,9.245,0.196,14.507v30.303h13.113V36.992
+      c0-1.215,0.17-2.42,0.51-3.285c0.861-2.414,3.018-4.917,6.645-4.917c4.744,0,6.646,3.708,6.646,9.139v24.959H64V36.291
+      C64,23.869,57.531,18.705,48.906,18.705z"/>
+    </symbol>
+
+    <symbol id="icon-twitter" viewBox="0 0 64 52.013">
+      <title>Twitter</title> 
+      <desc>Link to Twitter</desc>
+
+      <path fill="#FFFFFF" d="M64,6.154c-2.354,1.044-4.885,1.749-7.537,2.069c2.709-1.626,4.789-4.2,5.77-7.266
+      c-2.531,1.505-5.346,2.598-8.344,3.187C51.5,1.592,48.09,0,44.309,0c-7.248,0-13.128,5.878-13.128,13.131
+      c0,1.025,0.117,2.028,0.339,2.992C20.608,15.575,10.936,10.348,4.458,2.404c-1.13,1.939-1.776,4.196-1.776,6.601
+      c0,4.557,2.318,8.574,5.84,10.927c-2.151-0.065-4.174-0.656-5.947-1.641c0,0.055,0,0.11,0,0.166c0,6.363,4.525,11.667,10.532,12.875
+      c-1.105,0.301-2.263,0.455-3.461,0.455c-0.847,0-1.668-0.074-2.472-0.227c1.671,5.215,6.521,9.008,12.265,9.117
+      c-4.494,3.523-10.156,5.615-16.304,5.615c-1.06,0-2.106-0.061-3.135-0.184c5.81,3.73,12.712,5.904,20.125,5.904
+      c24.145,0,37.359-20.004,37.359-37.355c0-0.57-0.012-1.137-0.043-1.7C60.008,11.099,62.238,8.786,64,6.154z"/>
+    </symbol>
+
+    <symbol id="icon-github" viewBox="0 0 512 512">
+      <title>GitHub</title>
+      <desc>Link to GitHub</desc>
+      <path fill="#ffffff" d="M256 70.7c-102.6 0-185.9 83.2-185.9 185.9 0 82.1 53.3 151.8 127.1 176.4 9.3 1.7 12.3-4 12.3-8.9V389.4c-51.7 11.3-62.5-21.9-62.5-21.9 -8.4-21.5-20.6-27.2-20.6-27.2 -16.9-11.5 1.3-11.3 1.3-11.3 18.7 1.3 28.5 19.2 28.5 19.2 16.6 28.4 43.5 20.2 54.1 15.4 1.7-12 6.5-20.2 11.8-24.9 -41.3-4.7-84.7-20.6-84.7-91.9 0-20.3 7.3-36.9 19.2-49.9 -1.9-4.7-8.3-23.6 1.8-49.2 0 0 15.6-5 51.1 19.1 14.8-4.1 30.7-6.2 46.5-6.3 15.8 0.1 31.7 2.1 46.6 6.3 35.5-24 51.1-19.1 51.1-19.1 10.1 25.6 3.8 44.5 1.8 49.2 11.9 13 19.1 29.6 19.1 49.9 0 71.4-43.5 87.1-84.9 91.7 6.7 5.8 12.8 17.1 12.8 34.4 0 24.9 0 44.9 0 51 0 4.9 3 10.7 12.4 8.9 73.8-24.6 127-94.3 127-176.4C441.9 153.9 358.6 70.7 256  70.7z"></path>
+    </symbol>
+
+    <symbol id="icon-google" viewBox="0 0 512 512">
+      <title>Google Plus</title>
+      <desc>Link to Google Plus</desc>
+
+      <path fill="#ffffff" d="M179.7 237.6L179.7 284.2 256.7 284.2C253.6 304.2 233.4 342.9 179.7 342.9 133.4 342.9 95.6 304.4 95.6 257 95.6 209.6 133.4 171.1 179.7 171.1 206.1 171.1 223.7 182.4 233.8 192.1L270.6 156.6C247 134.4 216.4 121 179.7 121 104.7 121 44 181.8 44 257 44 332.2 104.7 393 179.7 393 258 393 310 337.8 310 260.1 310 251.2 309 244.4 307.9 237.6L179.7 237.6 179.7 237.6ZM468 236.7L429.3 236.7 429.3 198 390.7 198 390.7 236.7 352 236.7 352 275.3 390.7 275.3 390.7 314 429.3 314 429.3 275.3 468 275.3"></path>
+    </symbol>
+
+    <symbol id="icon-instagram" viewBox="0 0 512 512">
+      <title>Instagram</title>
+      <desc>Link to Instagram</desc>
+
+      <path fill="#ffffff" d="M365.3 234.1h-24.7c1.8 7 2.9 14.3 2.9 21.9 0 48.3-39.2 87.5-87.5 87.5 -48.3 0-87.5-39.2-87.5-87.5 0-7.6 1.1-14.9 2.9-21.9h-24.7V354.4c0 6 4.9 10.9 10.9 10.9H354.4c6 0 10.9-4.9 10.9-10.9V234.1H365.3zM365.3 157.6c0-6-4.9-10.9-10.9-10.9h-32.8c-6 0-10.9 4.9-10.9 10.9v32.8c0 6 4.9 10.9 10.9 10.9h32.8c6 0 10.9-4.9 10.9-10.9V157.6zM256 201.3c-30.2 0-54.7 24.5-54.7 54.7 0 30.2 24.5 54.7 54.7 54.7 30.2 0 54.7-24.5 54.7-54.7C310.7 225.8 286.2 201.3 256 201.3M365.3 398.1H146.7c-18.1 0-32.8-14.7-32.8-32.8V146.7c0-18.1 14.7-32.8 32.8-32.8h218.7c18.1 0 32.8 14.7 32.8 32.8v218.7C398.1 383.4 383.5 398.1 365.3 398.1"></path>
+    </symbol>
+  </svg>
+
+  <div class="wrapper">
+    <h1>Brian Frisch</h1>
+    <h2>Head of Frontend Development<br>and Senior Consultant<br>with <a href="http://www.pentia.dk" target="_blank">Pentia</a></h2>
+    <p>
+      Born in 1981 &middot; done web work since 1996
+    </p>
+    <div class="socialLinks">
+        <a class="github" href="https://github.com/teltploek" target="_blank" title="Find me on GitHub">
+          <svg class="socialIcon">
+            <use xlink:href="#icon-github" />
+          </svg>
+        </a>
+
+        <a class="twitter" href="https://twitter.com/teltploek" target="_blank" title="Find me on Twitter">
+          <svg class="socialIcon">
+            <use xlink:href="#icon-twitter" />
+          </svg>
+        </a>
+
+        <a class="linkedin" href="https://dk.linkedin.com/in/frischbrian" target="_blank" title="Find me on LinkedIn">
+          <svg class="socialIcon">
+            <use xlink:href="#icon-linkedin" />
+          </svg>
+        </a>
+
+        <a class="facebook" href="https://www.facebook.com/formand1" target="_blank" title="Find me on Facebook">
+          <svg class="socialIcon">
+            <use xlink:href="#icon-facebook" />
+          </svg>
+        </a>
+
+        <a class="codepen" href="http://codepen.io/teltploek/" target="_blank" title="Find me on Codepen">
+          <svg class="socialIcon">
+            <use xlink:href="#icon-codepen" />
+          </svg>
+        </a>
+
+        <a class="instagram" href="https://instagram.com/formand1/" target="_blank" title="Find me on Instagram">
+          <svg class="socialIcon">
+            <use xlink:href="#icon-instagram" />
+          </svg>
+        </a>
+    </div>
+  </div>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68273909-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+
+</body>
+</html>
